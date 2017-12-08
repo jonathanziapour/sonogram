@@ -25,19 +25,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script>
-    function picChange()
-    {
-      if($("#logo").attr("src") == "img/sonogramS-whiteC.png")
-      {
-        $("#logo").attr("src","img/sonogram-whiteC.png");
-      }
-      else {
-        $("#logo").attr("src","img/sonogramS-whiteC.png");
-      }
-    }
-    </script>
   </head>
 
   <body>
@@ -46,14 +33,14 @@
         <div class="cover-container">
           <div class="inner cover">
             <!--<h1 class="cover-heading">-->
-              <img id="logo" class="img-responsive" src="img/sonogramS-whiteC.png" alt="Sonogram LDN Logo" onClick="picChange();">
+              <img id="logo" class="img-responsive" src="img/sonogram-whiteC.png" alt="Sonogram LDN Logo">
             <!--</h1>-->
             <div class="col-md-12">
               <div class="col-md-6">
-              <p><a href="https://facebook.com/sonogramldn">Facebook</a></p>
+              <a href="https://facebook.com/sonogramldn"><img id="fb_logo" src="img/FB-f-Logo__white_58.png" alt="Facebook"></a>
             </div>
             <div class="col-md-6">
-              <p><a href="https://soundcloud.com/sonogramldn">Soundcloud</a></p>
+              <a href="https://soundcloud.com/sonogramldn"><img id="sc_logo" src="img/soundcloud_white_transparent_64.png" alt="Soundcloud"></a>
             </div>
           </div>
         </div>
